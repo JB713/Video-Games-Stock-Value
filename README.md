@@ -1,8 +1,10 @@
-ETL Project Topic: Video Game sales VS Game Companies Stock Markets
+ETL Project Topic: Video Game Sales, Stock Prices, and Ratings
 
-Purpose: By extract the video games sales date we would find out how have sales number effect the stocks of the console companies. Also, we add one more database to see how the game rating will affect the sales.
+Purpose: To create a database via SQL combining video game sales, video game Metacritic scores, and video game platform historical stock data.
 
-Dependencies: For the project to work we need to extract the video games sales file to create the database, then normalize the database with different keyword.  The target mapping needs to draw out accurately to map out the games to their belonging companies, companies to their stock history of when the games were published. 
+Dependencies: For the project to work we need to extract the video games sales, scores, and stock info. Transform a csv file, json file, and API connection to create the database. The database be mapped out using set keywords.  The target mapping needs to draw out accurately to map out the games to their belonging companies, companies to their stock history of when the games were published, and their Metacritic scores at the time. 
+
+We will be using a SQL database because we are working with multiple data formats, relational databases, and foreign keys.
 
 Data Sources:  
 
@@ -14,3 +16,5 @@ https://towardsdatascience.com/free-stock-data-for-python-using-yahoo-finance-ap
 
 Metacritic all time games stats
 https://www.kaggle.com/skateddu/metacritic-all-time-games-stats?select=metacritic_games.json
+
+
